@@ -1,0 +1,213 @@
+:root{
+   --main-color:#8e44ad;
+   --red:#e74c3c;
+   --orange:#f39c12;
+   --light-color:#888;
+   --light-bg:#eee;
+   --black:#2c3e50;
+   --white:#fff;
+   --border:.1rem solid rgba(0,0,0,.2);
+ }
+ 
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+   }
+   body {
+     background-color: #eee;;
+ 
+   }
+   .time-container {
+     background-color: #1b1b1b;
+     width: 250px;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     top: 17%;
+     left: 84%;
+     padding: 20px 20px;
+     border-radius: 0.5em;
+     z-index: 9999;
+   }
+   button {
+     border: none;
+     outline: none;
+     cursor: pointer;
+   }
+   .section-container {
+     display: flex;
+     gap: 1em;
+     justify-content: center;
+   }
+   .btn {
+     padding: 3px 7px;
+     border-radius: 0.5em;
+     background-color: #3e3f43;
+     color: #a9a7a7;
+   }
+   .btn-focus {
+     background-color: #cb202d;
+     color: #ffffff;
+   }
+   .time-btn-container {
+     display: flex;
+     flex-direction: column;
+     margin-top: 2px;
+   }
+   #time {
+     text-align: center;
+     color: #ffffff;
+     font-size: 30px;
+     font-weight: 600;
+   }
+   .btn-container {
+     display: flex;
+     justify-content: center;
+     gap: 2em;
+   }
+   #btn-start,
+   #btn-pause {
+     padding: 7px 15px;
+     border-radius: 0.5em;
+     cursor: pointer;
+     background-color: #ffffff;
+   }
+   #btn-reset {
+     background-color: transparent;
+     border: none;
+     outline: none;
+     color: #ffffff;
+     font-size: 20px;
+   }
+   .hide {
+     display: none;
+   }
+   .show {
+     display: block;
+   }
+ 
+   * {
+     font-family: 'Nunito', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     outline: none;
+     border: none;
+     text-decoration: none;
+   }
+ 
+   .inline-btn
+   {
+      border-radius: .5rem;
+      color:#fff;
+      font-size: 15px;
+      cursor: pointer;
+      text-transform: capitalize;
+      padding:10px 15px;
+      text-align: center;
+   }
+   .inline-btn{
+      display: inline-block;
+   }
+   .inline-btn{
+      background-color: var(--main-color);
+   }
+   .inline-btn:hover{
+      background-color: var(--black);
+      color: var(--white);
+   }
+ 
+   /*DETAILSSSSSS*/
+     
+     img {
+     width: 100%;
+     height: 15rem;
+     }
+     section{
+     margin: 0 auto;
+     max-width: 1200px;
+     }
+     div {
+       display: block;
+       unicode-bidi: isolate;
+   }
+     
+     .heading {
+     font-size: 2.5rem;
+     color: var(--black);
+     margin-bottom: 2.5rem;
+     border-bottom: var(--border);
+     padding-bottom: 1.5rem;
+     text-transform: capitalize;
+     }
+     
+     h1 {
+     display: block;
+     font-size: 2em;
+     margin-block-start: 0.67em;
+     margin-block-end: 0.67em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     font-weight: bold;
+     unicode-bidi: isolate;
+     }
+     
+     .row{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     gap:1.5rem;
+     }
+ 
+     .playlist-details .row {
+       display: flex;
+       align-items: flex-start; /* Align items at the top */
+       gap: 1.5rem;
+       flex-wrap: wrap;
+       background-color: var(--white);
+       padding: 2rem;
+     }
+     
+     .details-and-thumb {
+       display: flex;
+       gap: 1.5rem;
+       align-items: flex-start; /* Align items at the top */
+     }
+     
+     .playlist-details .thumb img {
+       width: 100%; /* Adjust the width as needed */
+       height: 10rem; /* Maintain aspect ratio */
+     }
+     
+     .playlist-details .details {
+       margin-left: 1.5rem; /* Space between image and text */
+     }
+     
+     .playlist-details .details h3 {
+       font-size: 2rem; /* Adjust size as needed */
+       color: var(--black);
+       text-transform: capitalize;
+     }
+     
+     .playlist-details .details ul {
+       padding-left: 1.5rem; /* Space for bullet points */
+       margin: 0; /* Remove default margins */
+     }
+     
+     .playlist-details .details li {
+       font-size: 1rem; /* Adjust size as needed */
+       color: var(--light-color);
+       margin: 0.5rem 0; /* Adjust margin as needed */
+     }
+ 
+     .info-lesson ul {
+     list-style-type: disc;
+     margin-left: 20px;
+     }
+     
+     .info-lesson li {
+     font-size: 1.3rem;
+     color: #888;
+     margin-bottom: 10px;
+     }
